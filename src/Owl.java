@@ -1,4 +1,4 @@
-public class Owl extends Animal implements Flyable{
+public class Owl extends Animal implements Flyable, write{
      
     @Override
     void sound(){
@@ -13,6 +13,15 @@ public class Owl extends Animal implements Flyable{
     @Override
     public void glide() {
       System.out.println("owl glide!");
+    }
+
+    @Override
+    public void paint() {
+       System.out.println("cloud");
+    }
+    @Override
+    public void draw() {
+        System.out.println("bird");
     }
     
 }

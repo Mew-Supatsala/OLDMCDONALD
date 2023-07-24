@@ -10,7 +10,16 @@ public class App {
         piglet.sound();
         Owl hedwig = new Owl();
         hedwig.sound();
-       
+        
+        hedwig.draw();
+        piglet.draw();
+        donald.draw();
+        ngua.draw();
+
+        hedwig.paint();
+        piglet.paint();
+        donald.paint();
+        ngua.paint();
     
         donald.fly();
         hedwig.fly();

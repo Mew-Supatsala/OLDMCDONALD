@@ -1,4 +1,4 @@
-public class Duck extends Animal implements Flyable{
+public class Duck extends Animal implements Flyable, write{
     @Override
     void sound(){
         System.out.println("Quack quack!");
@@ -14,6 +14,16 @@ public class Duck extends Animal implements Flyable{
 
     protected void clean(Animal animal){
        System.out.println(this.toString()+ "is being cleand."+animal.toString() );
+    }
+
+    @Override
+    public void paint() {
+        System.out.println("chicken");
+    }
+
+    @Override
+    public void draw() {
+       System.out.println("tree");
     }
 
    
